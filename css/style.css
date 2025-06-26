@@ -28,11 +28,12 @@ background-position: 50% 70%; background-size: cover;
 #about_wrap{display: flex; justify-content: space-between; margin:10% 0; }
 
 #about_info{width:48%; margin:0; text-align:center;}
-#about_info h4{color:#dfa974; font-size:14px; font-weight:700; text-transform: uppercase; letter-spacing: 2px;}
+#about_info h4{color:#dfa974; font-size:14px; font-weight:400; text-transform: uppercase; letter-spacing: 2px;}
 #about_info h2{color:#19191a; font-size:44px; margin:25px; font-weight: 700; font-family: "Lora", serif; line-height: 60px;}
 #about_info p{font-size:16px; color:#595960; font-weight: 500; font-family: "Cabin", sans-serif; margin:0 0 20px 0;}
-#about_info span{text-transform: uppercase; font-size:13px; font-weight:700; letter-spacing: 2px; color:#19191a; margin-top: 100px; line-height: 70px;}
-/* #about_info span::after{border-bottom: #dfa974; width:100%; box-sizing: border-box; height:2px; content:""; } */
+#about_info span{text-transform: uppercase; font-size:13px; font-weight:700; letter-spacing: 2px; color:#19191a; margin-top: 100px; line-height: 70px;position: relative;}
+#about_info span::after{content:''; position: absolute; bottom:-10px; left:0; background-color: #dfa974; width:0; box-sizing: border-box; height:2px; transition:0.5s }
+#about_info span:hover::after {width: 100%;}
 
 #about_imgbox{width:48%; margin:0; display:flex; justify-content: space-between; }
 /* #about_imgbox img{width:45%;} */
