@@ -72,3 +72,15 @@ background-position: 50% 70%; background-size: cover;
 
 .room_text>a::after{content:''; position: absolute; bottom:-5px; left:0; background-color: white; width:20px; box-sizing: border-box; height:2px; transition:0.5s }
 .room_text>a:hover::after {width: 100%;}
+
+.customer{width:100%; background-color: aliceblue;}
+.customer_title{width:100%; text-align: center; margin:150px 0;}
+.customer_title span{font-size:14px; color:#dfa974; font-weight: 700; text-transform: uppercase; letter-spacing: 2px;}
+.customer_title h2{font-size: 44px; color:#19191a; line-height: 59px; margin-top: 10px;}
+.customer_content{width:750px; text-align: center; margin:0 auto;}
+.customer_content p{font-size:20px; color:rgb(112,112,121); line-height:30px; margin-bottom: 50px; font-family: Cabin, sans-serif;}
+.author{display: flex; margin:0 auto; flex-wrap:wrap;}
+.rating{width:48%;}
+.rating i {color:rgb(245, 185, 23); font-size: 18px; }
+.author h5{line-height: 1.2; margin:0 2%; width:48%;}
+.author img{max-width: 100%; margin:10%;}
