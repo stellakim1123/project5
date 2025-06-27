@@ -14,6 +14,7 @@ nav{width:80%; margin: 3% 0 0 0; display: inline-block;}
 .menu{display: flex; justify-content: space-evenly; padding:10px; text-align: center; }
 .menu>li{width:16%; z-index: 1;}
 .menu>li a:hover{color:darkblue;}
+.sub{display: none;}
 .sub>li{background-color: gainsboro;}
 .sub>li:hover{background-color: gold;}
 .sub>li a{font-size:12px;}
