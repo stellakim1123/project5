@@ -6,13 +6,13 @@ $('.menu>li').mouseover(function(){
 });
 });
 
-function slide(){
-    $('.slide').stop().animate({marginLeft:'-100%'}, 'slow', function(){
-        $('.slide li:first').appendTo('.slide');
-        $('.slide').css({marginLeft:0});
-    })
-}
-setInterval(slide, 3000)
+// function slide(){
+//     $('.slide').stop().animate({marginLeft:'-100%'}, 'slow', function(){
+//         $('.slide li:first').appendTo('.slide');
+//         $('.slide').css({marginLeft:0});
+//     })
+// }
+// setInterval(slide, 3000)
 
 $(function(){
     $('.roombox').hover(function(){
@@ -21,3 +21,11 @@ $(function(){
         $(this).children('.room_text').stop().animate({'opacity':'0.5', 'top':'80%'},'slow' );
     });
 });
+
+function csSlide(){
+    $('.customer_content_wrap').stop().animate({marginLeft:'-100%'}, 'slow', function(){
+        $('.customer_content:first').appendTo('.customer_content_wrap');
+        $('.customer_content_wrap').css({marginLeft:0});
+    })
+}
+setInterval(csSlide, 3000)
