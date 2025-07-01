@@ -6,13 +6,13 @@ $('.menu>li').mouseover(function(){
 });
 });
 
-// function slide(){
-//     $('.slide').stop().animate({marginLeft:'-100%'}, 'slow', function(){
-//         $('.slide li:first').appendTo('.slide');
-//         $('.slide').css({marginLeft:0});
-//     })
-// }
-// setInterval(slide, 3000)
+function slide(){
+    $('.slide').stop().animate({marginLeft:'-100%'}, 'slow', function(){
+        $('.slide li:first').appendTo('.slide');
+        $('.slide').css({marginLeft:0});
+    })
+}
+setInterval(slide, 3000)
 
 $(function(){
     $('.roombox').hover(function(){
