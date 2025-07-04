@@ -29,3 +29,17 @@ function csSlide(){
     })
 }
 setInterval(csSlide, 3000)
+
+// $(function(){
+//     $('.menu>li').click(function(){
+//         $('.sub').stop().slideUp();
+//         $(this).find('.sub').stop().slideToggle();
+//     });
+// });
+
+$(function(){
+$('.fa-bars').click(function(){
+    $('nav').slideToggle
+    ();
+});
+})
