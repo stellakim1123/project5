@@ -16,7 +16,7 @@ setInterval(slide, 3000)
 
 $(function(){
     $('.roombox').hover(function(){
-        $(this).children('.room_text').stop().animate({'opacity':'1', 'top':'40%'},'slow' );
+        $(this).children('.room_text').stop().animate({'opacity':'1', 'top':'30%'},'slow' );
     }, function(){
         $(this).children('.room_text').stop().animate({'opacity':'0.5', 'top':'80%'},'slow' );
     });
