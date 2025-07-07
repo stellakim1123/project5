@@ -76,7 +76,7 @@ background-position: 50% 70%; background-size: cover;
 #discover_title h2{font-size:44px; margin-top: 10px; line-height: 58px; color:#19191a; margin:25px; font-weight: 400; font-family: "Lora", serif;}
 
 #discover_contents{display:flex; flex-wrap: wrap; justify-content: space-between;}
-.discover_contentbox{width:90%; text-align: center; transition: 0.3s; margin: 0 auto; padding:7% 2%; }
+.discover_contentbox{width:90%; text-align: center; transition: 0.3s; margin: 0 auto; padding:7%; }
 .discover_contentbox i{color:#dfa974; display:inline-block; font-size:50px; }
 /* .discover_contentbox i::before{box-sizing: border-box; width:100px;} */
 .discover_contentbox h4{color:rgb(25, 25, 26); font-size:22px; margin:10px 0 15px; font-weight:400; font-family: "Lora", serif}
