@@ -1,7 +1,3 @@
-*{margin:0; padding:0; box-sizing: border-box; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
-ul, ol, li{list-style: none;}
-a{text-decoration: none; color:#333;}
-
 
 @media all and (max-width:768px){
 #wrap{width:100%; height:auto;}
@@ -119,10 +115,10 @@ background-position: 50% 70%; background-size: cover;
 /* .customer_content_wrap_1{width: 600%; height: 100%; text-align: center; position:relative; } */
 .customer_content{width:16.666%; margin:0; float: left; text-align: center;}
 
-.customer_content p{font-size:18px; color:rgb(112,112,121); line-height:30px; margin-bottom: 50px; font-family: Cabin, sans-serif;}
-.rating{width:50%; display:inline-block; text-align: center; }
+.customer_content p{font-size:18px; color:rgb(112,112,121); line-height:30px; margin-bottom: 50px; font-family: Cabin, sans-serif; text-align: center; }
+.rating{width:50%; display:inline-block; }
 .rating i {color:rgb(245, 185, 23); font-size: 18px; }
-.customer_content h5{margin:0; width: 60%; display: inline-block; color:#19191a; font-weight: 400; font-family: "Lora", serif; font-size: 17px;}
+.customer_content h5{margin:0; width: 50%; display: inline-block; color:#19191a; font-weight: 400; font-family: "Lora", serif; font-size: 17px;}
 .customer_content img{width:71px; height:49px; margin:7%;}
 
 .news{width:100%; background-color: aliceblue;}
@@ -285,10 +281,10 @@ background-position: 50% 70%; background-size: cover;
 /* .customer_content_wrap_1{width: 600%; height: 100%; text-align: center; position:relative; } */
 .customer_content{width:16.666%; margin:0; float: left; text-align: center;}
 
-.customer_content p{font-size:20px; color:rgb(112,112,121); line-height:30px; margin-bottom: 50px; font-family: Cabin, sans-serif;}
-.rating{width:40%; display:inline-block; text-align: center; text-align: right;}
+.customer_content p{font-size:20px; color:rgb(112,112,121); line-height:30px; margin-bottom: 50px; font-family: Cabin, sans-serif; text-align: center;}
+.rating{width:45%; display:inline-block; text-align: center; text-align: right;}
 .rating i {color:rgb(245, 185, 23); font-size: 18px; }
-.customer_content h5{margin:0; width: 50%; display: inline-block; color:#19191a; font-weight: 400; font-family: "Lora", serif; font-size: 20px; text-align: left;}
+.customer_content h5{margin:0; width: 45%; display: inline-block; color:#19191a; font-weight: 400; font-family: "Lora", serif; font-size: 20px; text-align: left;}
 .customer_content img{width:71px; height:49px; margin:5%;}
 
 .news{width:100%; background-color: aliceblue;}
@@ -451,10 +447,10 @@ background-position: 50% 70%; background-size: cover;
 /* .customer_content_wrap_1{width: 600%; height: 100%; text-align: center; position:relative; } */
 .customer_content{width:16.666%; margin:0; float: left; text-align: center;}
 
-.customer_content p{font-size:20px; color:rgb(112,112,121); line-height:30px; margin-bottom: 50px; font-family: Cabin, sans-serif;}
-.rating{width:15%; display:inline-block; text-align: center; }
+.customer_content p{font-size:20px; color:rgb(112,112,121); line-height:30px; margin-bottom: 50px; font-family: Cabin, sans-serif; text-align: center;}
+.rating{width:25%; display:inline-block; text-align: right; }
 .rating i {color:rgb(245, 185, 23); font-size: 18px; }
-.customer_content h5{margin:0; width: 20%; display: inline-block; color:#19191a; font-weight: 400; font-family: "Lora", serif; font-size: 20px;}
+.customer_content h5{margin:0; width: 25%; display: inline-block; color:#19191a; font-weight: 400; font-family: "Lora", serif; font-size: 20px; text-align: left;}
 .customer_content img{width:71px; height:49px; margin:5%;}
 
 .news{width:100%; background-color: aliceblue;}

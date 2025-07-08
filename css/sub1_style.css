@@ -1,0 +1,82 @@
+@media all and (max-width:768px){
+.contact{background-color:rgb(252, 249, 249) ;}
+.contact_wrap{display: flex; justify-content: space-between; flex-wrap: wrap; padding:80px 0; }
+.contact_box{width: 100%; height:350px; text-align: left; display: flex; justify-content: space-between; flex-direction: column;}
+
+.contact_box h2{font-size: 44px; color:#19191a; margin-bottom: 24px; font-family:"Lora", serif; font-weight: 400;} 
+.contact_box p{color:#707079; font-size: 16px; font-family: "Cabin", sans-serif; font-weight: 400; line-height: 26px; margin: 0 0 15px 0;}
+
+.contact_box2{width:100%; text-align: left; margin: 2% 0; height:350px;} 
+
+.contact_box table{border-collapse: collapse; font-family: "Cabin", sans-serif; text-align: left;}
+.contact_box table tbody tr td {font-size: 16px;  font-weight:600; line-height: 36px; color:#19191a; font-family: "Cabin", sans-serif;}
+.contact_box table tbody tr .td_s{color:#707079; width:75px; }
+
+.submit{display: flex; flex-wrap: wrap; justify-content: space-between; }
+.submit_box{width:100%; height:50px; padding-right: 15px; margin:2% 0;}
+
+.submit_box textarea{width:100%; border:1px solid #e1e1e1; height:150px; font-size: 14px; color:#aaaab3; margin-bottom: 33px; padding-left:25px; padding-top: 12px; }
+.submit_box textarea::placeholder{color:#c0bfbf}
+.submit_box input::placeholder{color:#c0bfbf}
+.submit_box input{width:100%; border:1px solid #e1e1e1; font-size:14px; color:#aaaab3; padding-left:25px; margin-bottom: 28px; height:50px;}
+.submit_box button{background-color:#dfa974; border:none; color: white; padding: 14px 34px; text-transform: uppercase; font-weight: 700; font-size: 13px; letter-spacing: 2px; cursor: pointer;}
+
+.map{width:100%; height:470px; box-shadow: 0px 14px 35px rgb(250, 249, 249); margin-top: 75px;}
+.map iframe{width:100%; height:470px; display: block}
+}
+
+@media all and (min-width:768px) and (max-width:1315px){
+.contact{background-color:rgb(252, 249, 249) ;}
+.contact_wrap{display: flex; justify-content: space-between; flex-wrap: wrap; padding:80px 0; }
+.contact_box{width: 100%; height:300px; text-align: left; display: flex; justify-content: space-between; flex-direction: column;}
+
+.contact_box h2{font-size: 44px; color:#19191a; margin-bottom: 24px; font-family:"Lora", serif; font-weight: 400;} 
+.contact_box p{color:#707079; font-size: 16px; font-family: "Cabin", sans-serif; font-weight: 400; line-height: 26px; margin: 0 0 15px 0;}
+
+.contact_box2{width:100%; text-align: left; margin:2% 0; height:400px;} 
+
+.contact_box table{border-collapse: collapse; font-family: "Cabin", sans-serif; text-align: left;}
+.contact_box table tbody tr td {font-size: 16px;  font-weight:600; line-height: 36px; color:#19191a; font-family: "Cabin", sans-serif;}
+.contact_box table tbody tr .td_s{color:#707079; width:75px; }
+
+.submit{display: flex; flex-wrap: wrap; justify-content: space-between; }
+.submit_box{width:100%; height:50px; padding-right: 15px; margin:2% 0;}
+
+.submit_box textarea{width:100%; border:1px solid #e1e1e1; height:150px; font-size: 14px; color:#aaaab3; margin-bottom: 33px; padding-left:25px; padding-top: 12px; }
+.submit_box textarea::placeholder{color:#c0bfbf}
+.submit_box input::placeholder{color:#c0bfbf}
+.submit_box input{width:100%; border:1px solid #e1e1e1; font-size:14px; color:#aaaab3; padding-left:25px; margin-bottom: 28px; height:50px;}
+.submit_box button{background-color:#dfa974; border:none; color: white; padding: 14px 34px; text-transform: uppercase; font-weight: 700; font-size: 13px; letter-spacing: 2px; cursor: pointer;}
+
+.map{width:100%; height:470px; box-shadow: 0px 14px 35px rgb(250, 249, 249); margin-top: 75px;}
+.map iframe{width:100%; height:470px; display: block}
+}
+
+@media all and (min-width:1315px){
+.contact{background-color:rgb(252, 249, 249) ;}
+.contact_wrap{display: flex; justify-content: space-between; flex-wrap: wrap; padding:80px 0; }
+.contact_box{width: 34%; height:350px; text-align: left; display: flex; justify-content: space-between; flex-direction: column;}
+
+.contact_box h2{font-size: 44px; color:#19191a; margin-bottom: 24px; font-family:"Lora", serif; font-weight: 400;} 
+.contact_box p{color:#707079; font-size: 16px; font-family: "Cabin", sans-serif; font-weight: 400; line-height: 26px; margin: 0 0 15px 0;}
+
+.contact_box2{width:60%; text-align: left;} 
+
+.contact_box table{border-collapse: collapse; font-family: "Cabin", sans-serif; text-align: left;}
+.contact_box table tbody tr td {font-size: 16px;  font-weight:600; line-height: 36px; color:#19191a; font-family: "Cabin", sans-serif;}
+.contact_box table tbody tr .td_s{color:#707079; width:75px; }
+
+.submit{display: flex; flex-wrap: wrap; justify-content: space-between; }
+.submit_box{width:48%; height:50px; padding-left: 15px; padding-right: 15px; margin:2% 0;}
+.submit_box:last-of-type{width:100%;}
+.submit_box:last-child{width:100%; height: 50px;  }
+
+.submit_box textarea{width:100%; border:1px solid #e1e1e1; height:150px; font-size: 14px; color:#aaaab3; margin-bottom: 33px; padding-left:25px; padding-top: 12px; }
+.submit_box textarea::placeholder{color:#c0bfbf}
+.submit_box input::placeholder{color:#c0bfbf}
+.submit_box input{width:100%; border:1px solid #e1e1e1; font-size:14px; color:#aaaab3; padding-left:25px; margin-bottom: 28px; height:50px;}
+.submit_box button{background-color:#dfa974; border:none; color: white; padding: 14px 34px; text-transform: uppercase; font-weight: 700; font-size: 13px; letter-spacing: 2px; cursor: pointer;}
+
+.map{width:100%; height:470px; box-shadow: 0px 14px 35px rgb(250, 249, 249); margin-top: 75px;}
+.map iframe{width:100%; height:470px; display: block}
+}
