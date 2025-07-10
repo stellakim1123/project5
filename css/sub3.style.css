@@ -152,7 +152,7 @@
 
 .rating{width:298.5px; display:inline-block; text-align: right; }
 .rating i {color:rgb(245, 185, 23); font-size: 14px; }
-.r-title h3{color:#19191a; font-size: 30px; font-weight: 400; font-family: "Lora", serif; display: inline-block;}
+.r-title h3{color:#19191a; font-size: 30px; font-weight: 400; font-family: "Lora", serif; display: inline-block; width:57%;}
 .r-title .rating{display: inline-block; margin-bottom: 8px; margin-right:25px; margin-bottom: 10px;}
 .r-title a{background-color: #dfa974; color:white; padding:14px 28px; text-transform: uppercase; font-weight: 700; font-size: 13px; font-family: "Cabin", sans-serif;}
 
