@@ -1,0 +1,192 @@
+@media all and (max-width:768px){
+.room{width:100%; background-color: rgb(252, 249, 249); }
+.room_wrap{padding:80px 0; display: flex; flex-wrap: wrap; justify-content: space-between;}
+.room_detail{width:100%; margin: 0 0 3%;}
+.room_detail img{width:100%; }
+
+.room_title{text-align: center; padding: 0 0 70px; width:100%; }
+.room_title h2{font-size: 44px; color:#19191a; margin-bottom: 12px; font-weight: 400; font-family: "Lora", serif;}
+.room_title a{font-size: 18px; color:#19191a; margin-right: 20px; font-weight: 500; font-family: 'Cabin', sans-serif; }
+.room_title i{color:#aaaab3; font-size: 18px; top:1px;  font-family: 'Cabin', sans-serif; }
+.room_title span{font-size: 18px; color:#aaaab3;  font-family: 'Cabin', sans-serif; }
+
+.booking_wrap{background-color: white; width: 100%; height:600px; padding: 40px; border-radius: 4px; margin: 60px 0 0;}
+.booking_wrap h3{color:#19191a; margin-bottom:30px; font-size:30px; font-family: "Lora", serif; font-weight: 400; }
+.booking_wrap form{box-sizing: border-box;}
+.booking_wrap .check_date{margin-bottom: 15px; position:relative;}
+.booking_wrap label{font-size: 14px; color:#707079; display: block; margin-bottom: 8px;}
+.booking_wrap input{width:100%; height:50px; border:1px solid #ebebeb; border-radius: 2px; font-size: 16px; text-transform: uppercase; font-weight: 500; padding-left: 20px;}
+.booking_wrap i {color:#dfa974; position:absolute; right:18px; bottom:15px;}
+.select-option select{width:100%; height:50px; border:1px solid #ebebeb; border-radius: 2px; font-size: 16px; text-transform: uppercase; font-weight: 500; padding-left: 20px; margin-bottom: 15px; font-weight: bold; }
+#room{margin-bottom: 30px; } 
+.booking_wrap button{width:100%; height:50px; border:1px solid #dfa974; color:#dfa974; background-color: white; text-transform: uppercase; font-size: 14px; font-weight: 600; font-family: Cabin, sans-serif;}
+
+.rating i {color:rgb(245, 185, 23); font-size: 14px; }
+.r-title{display: flex; justify-content: space-between; flex-wrap: wrap; height:150px; line-height: 70px; width:100%}
+.r-title h3{color:#19191a; font-size: 30px; font-weight: 400; font-family: "Lora", serif; display: inline-block; width:100%; }
+.r-title .rating{display: inline-block; margin-bottom: 10px; width:40%; display:inline-block; text-align: left;  width:100%;}
+.r-title .rating a{background-color: #dfa974; color:white; padding:14px 28px; text-transform: uppercase; font-weight: 700; font-size: 13px; font-family: "Cabin", sans-serif; margin: 0 0 0 3%;}
+
+.info{padding: 30px 0 ;}
+.info h2{margin-bottom: 25px; font-size:36px; color:#dfa974; font-weight: 700; font-family: "Lora", serif;}
+.info span{font-weight: 400; font-family: "Cabin", sans-serif; font-size: 16px; color:#19191a;}
+
+.info table{border-collapse: collapse; margin-bottom: 30px; width:400px; font-family: "Cabin", sans-serif;}
+.info table td:first-child{color:#707079; width:120px;} 
+.info table td{color:#19191a; font-size: 16px; line-height: 36px; }
+
+.info p{color:#707079; margin:0 0 15px 0; line-height: 26px; font-family: "Cabin", sans-serif; font-weight: 400;}
+
+.review{margin-bottom: 50px; border-top:1px solid #e5e5e5; padding-top:50px; display: flex; flex-wrap: wrap; width:100%;}
+.review h4{width:100%; color:#19191a; letter-spacing: 1px; font-size: 24px; font-weight: 400; font-family: "Lora", serif;}
+.review-content{display: flex; justify-content: space-between; margin: 4% 0; width:100%;}
+.review-pic{width:10%; margin:0 30px 50px 0;}
+.review-pic img{height:70px; width:70px; border-radius: 50%;}
+
+.review-text{width:90%; padding:0 0 0 30px; border-left: 1px solid #e5e5e5; display: flex; justify-content: space-between; flex-wrap: wrap; align-content: space-between;}
+.review-text span{font-family: "Cabin", sans-serif; font-size: 12px; color:#dfa974; text-transform: uppercase; letter-spacing: 3px;;}
+.review-text h5{width:100%; color:#19191a; font-size: 18px; font-weight: 400; font-family: "Lora", serif;}
+.review-text p{width:100%; color:#707079; margin:0 0 15px 0; line-height: 26px; font-family: "Cabin", sans-serif; font-weight: 400; font-size: 16px;}
+
+.add{display: flex; flex-wrap: wrap; justify-content: space-between;}
+.add h4{width:100%; color:#19191a; font-size: 24px; font-weight: 400; font-family: "Lora", serif; letter-spacing: 1px; margin-bottom: 45px; }
+.add_content{width:100%; padding:0; margin: 3% 0;}
+.add_content:last-child{width: 100%; display: flex; flex-wrap:wrap;}
+.add_content input{width:100%; height:50px;  border: 1px solid #e5e5e5; font-size: 16px; color:#aaaab3; padding: 25px 20px;}
+.add_content input::placeholder{color:#bdbaba;}
+
+.add_content h5{width:140px; color:#19191a; font-size: 20px; font-weight: 400; font-family: "Lora", serif; letter-spacing: 1px; margin: 40px 0 20px; display: inline-block;  }
+.add_content .rating{text-align: left; width:50%; margin: 40px 0 20px ;}
+.add_content textarea{width:100%; color:#aaaab3; border: 1px solid #e5e5e5; font-size: 16px; color:#aaaab3; padding: 25px 20px; height:140px; margin-bottom: 20px; }
+.add_content textarea::placeholder{color:#bdbaba; width:100%;}
+.add_content button{background-color: #dfa974; color: white; border: none; text-transform: uppercase; padding:15px 35px; letter-spacing: 2px;  font-family: "Cabin", sans-serif; font-weight: 700; font-size: 13px;}
+}
+
+
+@media all and (min-width:768px) and (max-width:1315px){
+.room{width:100%; background-color: rgb(252, 249, 249); }
+.room_wrap{padding:80px 0; display: flex; flex-wrap: wrap; justify-content: space-between;}
+.room_detail{width:100%; margin: 0 0 3%;}
+.room_detail img{width:100%; }
+
+.room_title{text-align: center; padding: 0 0 70px; width:100%; }
+.room_title h2{font-size: 44px; color:#19191a; margin-bottom: 12px; font-weight: 400; font-family: "Lora", serif;}
+.room_title a{font-size: 18px; color:#19191a; margin-right: 20px; font-weight: 500; font-family: 'Cabin', sans-serif; }
+.room_title i{color:#aaaab3; font-size: 18px; top:1px;  font-family: 'Cabin', sans-serif; }
+.room_title span{font-size: 18px; color:#aaaab3;  font-family: 'Cabin', sans-serif; }
+
+.booking_wrap{background-color: white; width: 100%; height:600px; padding: 40px; border-radius: 4px; margin: 60px 0 0;}
+.booking_wrap h3{color:#19191a; margin-bottom:30px; font-size:30px; font-family: "Lora", serif; font-weight: 400; }
+.booking_wrap form{box-sizing: border-box;}
+.booking_wrap .check_date{margin-bottom: 15px; position:relative;}
+.booking_wrap label{font-size: 14px; color:#707079; display: block; margin-bottom: 8px;}
+.booking_wrap input{width:100%; height:50px; border:1px solid #ebebeb; border-radius: 2px; font-size: 16px; text-transform: uppercase; font-weight: 500; padding-left: 20px;}
+.booking_wrap i {color:#dfa974; position:absolute; right:18px; bottom:15px;}
+.select-option select{width:100%; height:50px; border:1px solid #ebebeb; border-radius: 2px; font-size: 16px; text-transform: uppercase; font-weight: 500; padding-left: 20px; margin-bottom: 15px; font-weight: bold; }
+#room{margin-bottom: 30px; } 
+.booking_wrap button{width:100%; height:50px; border:1px solid #dfa974; color:#dfa974; background-color: white; text-transform: uppercase; font-size: 14px; font-weight: 600; font-family: Cabin, sans-serif;}
+
+.rating i {color:rgb(245, 185, 23); font-size: 14px; }
+.r-title{display: flex; justify-content: space-between; height:70px; line-height: 70px;}
+.r-title h3{color:#19191a; font-size: 30px; font-weight: 400; font-family: "Lora", serif; display: inline-block; width:50%; }
+.r-title .rating{display: inline-block; margin-bottom: 10px; width:px; display:inline-block; text-align: right;  width:43%;}
+.r-title .rating a{background-color: #dfa974; color:white; padding:14px 28px; text-transform: uppercase; font-weight: 700; font-size: 13px; font-family: "Cabin", sans-serif; margin: 0 0 0 3%;}
+
+.info{padding: 30px 0 ;}
+.info h2{margin-bottom: 25px; font-size:36px; color:#dfa974; font-weight: 700; font-family: "Lora", serif;}
+.info span{font-weight: 400; font-family: "Cabin", sans-serif; font-size: 16px; color:#19191a;}
+
+.info table{border-collapse: collapse; margin-bottom: 30px; width:400px; font-family: "Cabin", sans-serif;}
+.info table td:first-child{color:#707079; width:120px;} 
+.info table td{color:#19191a; font-size: 16px; line-height: 36px; }
+
+.info p{color:#707079; margin:0 0 15px 0; line-height: 26px; font-family: "Cabin", sans-serif; font-weight: 400;}
+
+.review{margin-bottom: 50px; border-top:1px solid #e5e5e5; padding-top:50px; display: flex; flex-wrap: wrap; width:100%;}
+.review h4{width:100%; color:#19191a; letter-spacing: 1px; font-size: 24px; font-weight: 400; font-family: "Lora", serif;}
+.review-content{display: flex; justify-content: space-between; margin: 4% 0; width:100%;}
+.review-pic{width:10%; margin:0 30px 50px 0;}
+.review-pic img{height:70px; width:70px; border-radius: 50%;}
+
+.review-text{width:90%; padding:0 0 0 30px; border-left: 1px solid #e5e5e5; display: flex; justify-content: space-between; flex-wrap: wrap; align-content: space-between;}
+.review-text span{font-family: "Cabin", sans-serif; font-size: 12px; color:#dfa974; text-transform: uppercase; letter-spacing: 3px;;}
+.review-text h5{width:100%; color:#19191a; font-size: 18px; font-weight: 400; font-family: "Lora", serif;}
+.review-text p{width:100%; color:#707079; margin:0 0 15px 0; line-height: 26px; font-family: "Cabin", sans-serif; font-weight: 400; font-size: 16px;}
+
+.add{display: flex; flex-wrap: wrap; justify-content: space-between;}
+.add h4{width:100%; color:#19191a; font-size: 24px; font-weight: 400; font-family: "Lora", serif; letter-spacing: 1px; margin-bottom: 45px; }
+.add_content{width:100%; padding:0; margin-bottom: 3%;}
+.add_content:last-child{display: flex; flex-wrap:wrap;}
+.add_content input{width:100%; height:50px;  border: 1px solid #e5e5e5; font-size: 16px; color:#aaaab3; padding: 25px 20px;}
+.add_content input::placeholder{color:#bdbaba;}
+.add_content h5{width:18%; color:#19191a; font-size: 20px; font-weight: 400; font-family: "Lora", serif; letter-spacing: 1px; margin: 40px 0 20px; display: inline-block;  }
+.add_content .rating{text-align: left; width:300px; margin: 40px 0 20px ;}
+.add_content textarea{width:100%; color:#aaaab3; border: 1px solid #e5e5e5; font-size: 16px; color:#aaaab3; padding: 25px 20px; height:140px; margin-bottom: 20px; }
+.add_content textarea::placeholder{color:#bdbaba; width:100%;}
+.add_content button{background-color: #dfa974; color: white; border: none; text-transform: uppercase; padding:15px 35px; letter-spacing: 2px;  font-family: "Cabin", sans-serif; font-weight: 700; font-size: 13px;}
+
+}
+
+
+@media all and (min-width:1315px){
+.room{width:100%; background-color: rgb(252, 249, 249); }
+.room_wrap{padding:80px 0; display: flex; flex-wrap: wrap; justify-content: space-between;}
+.room_detail{width:60.7%;}
+
+.room_title{text-align: center; padding: 0 0 70px; width:100%; }
+.room_title h2{font-size: 44px; color:#19191a; margin-bottom: 12px; font-weight: 400; font-family: "Lora", serif;}
+.room_title a{font-size: 18px; color:#19191a; margin-right: 20px; font-weight: 500; font-family: 'Cabin', sans-serif; }
+.room_title i{color:#aaaab3; font-size: 18px; top:1px;  font-family: 'Cabin', sans-serif; }
+.room_title span{font-size: 18px; color:#aaaab3;  font-family: 'Cabin', sans-serif; }
+
+.booking_wrap{background-color: white; width: 35%; height:560px; padding: 40px; border-radius: 4px;}
+.booking_wrap h3{color:#19191a; margin-bottom:30px; font-size:30px; font-family: "Lora", serif; font-weight: 400; }
+.booking_wrap form{box-sizing: border-box;}
+.booking_wrap .check_date{margin-bottom: 15px; position:relative;}
+.booking_wrap label{font-size: 14px; color:#707079; display: block; margin-bottom: 8px;}
+.booking_wrap input{width:100%; height:45px; border:1px solid #ebebeb; border-radius: 2px; font-size: 16px; text-transform: uppercase; font-weight: 500; padding-left: 20px;}
+.booking_wrap i {color:#dfa974; position:absolute; right:18px; bottom:15px;}
+.select-option select{width:100%; height:45px; border:1px solid #ebebeb; border-radius: 2px; font-size: 16px; text-transform: uppercase; font-weight: 500; padding-left: 20px; margin-bottom: 15px; font-weight: bold; }
+#room{margin-bottom: 30px; } 
+.booking_wrap button{width:100%; height:45px; border:1px solid #dfa974; color:#dfa974; background-color: white; text-transform: uppercase; font-size: 14px; font-weight: 600; font-family: Cabin, sans-serif;}
+
+.rating{width:298.5px; display:inline-block; text-align: right; }
+.rating i {color:rgb(245, 185, 23); font-size: 14px; }
+.r-title h3{color:#19191a; font-size: 30px; font-weight: 400; font-family: "Lora", serif; display: inline-block;}
+.r-title .rating{display: inline-block; margin-bottom: 8px; margin-right:25px; margin-bottom: 10px;}
+.r-title a{background-color: #dfa974; color:white; padding:14px 28px; text-transform: uppercase; font-weight: 700; font-size: 13px; font-family: "Cabin", sans-serif;}
+
+.info{padding: 30px 0 ;}
+.info h2{margin-bottom: 25px; font-size:36px; color:#dfa974; font-weight: 700; font-family: "Lora", serif;}
+.info span{font-weight: 400; font-family: "Cabin", sans-serif; font-size: 16px; color:#19191a;}
+
+.info table{border-collapse: collapse; margin-bottom: 30px; width:400px; font-family: "Cabin", sans-serif;}
+.info table td:first-child{color:#707079; width:120px;} 
+.info table td{color:#19191a; font-size: 16px; line-height: 36px; }
+
+.info p{color:#707079; margin:0 0 15px 0; line-height: 26px; font-family: "Cabin", sans-serif; font-weight: 400;}
+
+.review{margin-bottom: 50px; border-top:1px solid #e5e5e5; padding-top:50px; display: flex; flex-wrap: wrap; width:100%;}
+.review h4{width:100%; color:#19191a; letter-spacing: 1px; font-size: 24px; font-weight: 400; font-family: "Lora", serif;}
+.review-content{display: flex; justify-content: space-between; margin: 4% 0; width:100%;}
+.review-pic{width:10%; margin:0 30px 50px 0;}
+.review-pic img{height:70px; width:70px; border-radius: 50%;}
+
+.review-text{width:90%; padding:0 0 0 30px; border-left: 1px solid #e5e5e5; display: flex; justify-content: space-between; flex-wrap: wrap; align-content: space-between;}
+.review-text span{font-family: "Cabin", sans-serif; font-size: 12px; color:#dfa974; text-transform: uppercase; letter-spacing: 3px;;}
+.review-text h5{width:100%; color:#19191a; font-size: 18px; font-weight: 400; font-family: "Lora", serif;}
+.review-text p{width:100%; color:#707079; margin:0 0 15px 0; line-height: 26px; font-family: "Cabin", sans-serif; font-weight: 400; font-size: 16px;}
+
+.add{display: flex; flex-wrap: wrap; justify-content: space-between;}
+.add h4{width:100%; color:#19191a; font-size: 24px; font-weight: 400; font-family: "Lora", serif; letter-spacing: 1px; margin-bottom: 45px; }
+.add_content{width:48%; padding:0;}
+.add_content:last-child{width: 100%; display: flex; flex-wrap:wrap;}
+.add_content input{width:100%; height:50px;  border: 1px solid #e5e5e5; font-size: 16px; color:#aaaab3; padding: 25px 20px;}
+.add_content input::placeholder{color:#bdbaba;}
+.add_content h5{width:18%; color:#19191a; font-size: 20px; font-weight: 400; font-family: "Lora", serif; letter-spacing: 1px; margin: 40px 0 20px; display: inline-block;  }
+.add_content .rating{text-align: left; width:300px; margin: 40px 0 20px ;}
+.add_content textarea{width:100%; color:#aaaab3; border: 1px solid #e5e5e5; font-size: 16px; color:#aaaab3; padding: 25px 20px; height:140px; margin-bottom: 20px; }
+.add_content textarea::placeholder{color:#bdbaba; width:100%;}
+.add_content button{background-color: #dfa974; color: white; border: none; text-transform: uppercase; padding:15px 35px; letter-spacing: 2px;  font-family: "Cabin", sans-serif; font-weight: 700; font-size: 13px;}
+
+}
