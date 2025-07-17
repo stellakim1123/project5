@@ -5,6 +5,19 @@
 .room_title a{font-size: 18px; color:#19191a; margin-right: 20px; font-weight: 500; font-family: 'Cabin', sans-serif; }
 .room_title i{color:#aaaab3; font-size: 18px; top:1px;  font-family: 'Cabin', sans-serif; }
 .room_title span{font-size: 18px; color:#aaaab3;  font-family: 'Cabin', sans-serif; }    
+
+.rooms{display: flex; flex-direction: column; justify-content: space-between; align-content: space-between ;}
+.room_bx{width:100%; margin: 2% 0;}
+.room_bx img{width:100%; }
+.room_text{border:1px solid #ebebeb; border-top:none; padding: 24px 24px 30px 28px; height: 380px; display: flex; flex-direction: column; justify-content: space-between;}
+.room_text h4{color:#19191a;font-size: 24px; font-family: "Lora", serif; font-weight: 400; line-height: 1.2;}
+.room_text h3{color:#dfa974; font-size: 30px; font-family: "Lora", serif; font-weight: 700; line-height: 1.2;}
+.room_text h3 span{color:#19191a; font-size: 14px; font-family: "Cabin", sans-serif; font-weight: 400; line-height: 1.2;}
+.room_text table{border-collapse: collapse;}
+.room_text table tr td:first-child{width:125px; font-size: 16px; color:#707079; line-height: 36px;  font-family: "Cabin", sans-serif;}
+.primary_btn{color:#19191a; display: inline-block; font-size: 13px; text-transform: uppercase; font-weight: 700; letter-spacing: 2px; position: relative;}
+.primary_btn::after{position: absolute; content:""; background-color: #dfa974; width:20px; bottom: -5px; left:0; box-sizing: border-box; height:2px; transition:0.5s}
+.room_text>a:hover::after {width: 100%;}
 }
 
 
@@ -15,6 +28,19 @@
 .room_title a{font-size: 18px; color:#19191a; margin-right: 20px; font-weight: 500; font-family: 'Cabin', sans-serif; }
 .room_title i{color:#aaaab3; font-size: 18px; top:1px;  font-family: 'Cabin', sans-serif; }
 .room_title span{font-size: 18px; color:#aaaab3;  font-family: 'Cabin', sans-serif; }
+
+.rooms{display: flex; flex-wrap: wrap; justify-content: space-between; align-content: space-between ;}
+.room_bx{width:48%; margin: 2% 0;}
+.room_bx img{width:100%; }
+.room_text{border:1px solid #ebebeb; border-top:none; padding: 24px 24px 30px 28px; height: 380px; display: flex; flex-direction: column; justify-content: space-between;}
+.room_text h4{color:#19191a;font-size: 24px; font-family: "Lora", serif; font-weight: 400; line-height: 1.2;}
+.room_text h3{color:#dfa974; font-size: 30px; font-family: "Lora", serif; font-weight: 700; line-height: 1.2;}
+.room_text h3 span{color:#19191a; font-size: 14px; font-family: "Cabin", sans-serif; font-weight: 400; line-height: 1.2;}
+.room_text table{border-collapse: collapse;}
+.room_text table tr td:first-child{width:125px; font-size: 16px; color:#707079; line-height: 36px;  font-family: "Cabin", sans-serif;}
+.primary_btn{color:#19191a; display: inline-block; font-size: 13px; text-transform: uppercase; font-weight: 700; letter-spacing: 2px; position: relative;}
+.primary_btn::after{position: absolute; content:""; background-color: #dfa974; width:20px; bottom: -5px; left:0; box-sizing: border-box; height:2px; transition:0.5s}
+.room_text>a:hover::after {width: 100%;}
 }
 
 
@@ -25,4 +51,18 @@
 .room_title a{font-size: 18px; color:#19191a; margin-right: 20px; font-weight: 500; font-family: 'Cabin', sans-serif; }
 .room_title i{color:#aaaab3; font-size: 18px; top:1px;  font-family: 'Cabin', sans-serif; }
 .room_title span{font-size: 18px; color:#aaaab3;  font-family: 'Cabin', sans-serif; }
+
+.rooms{display: flex; flex-wrap: wrap; justify-content: space-between; align-content: space-between ;}
+.room_bx{width:32%; margin: 1% 0;}
+.room_bx img{width:100%; }
+.room_text{border:1px solid #ebebeb; border-top:none; padding: 24px 24px 30px 28px; height: 380px; display: flex; flex-direction: column; justify-content: space-between;}
+.room_text h4{color:#19191a;font-size: 24px; font-family: "Lora", serif; font-weight: 400; line-height: 1.2;}
+.room_text h3{color:#dfa974; font-size: 30px; font-family: "Lora", serif; font-weight: 700; line-height: 1.2;}
+.room_text h3 span{color:#19191a; font-size: 14px; font-family: "Cabin", sans-serif; font-weight: 400; line-height: 1.2;}
+.room_text table{border-collapse: collapse;}
+.room_text table tr td:first-child{width:125px; font-size: 16px; color:#707079; line-height: 36px;  font-family: "Cabin", sans-serif;}
+.primary_btn{color:#19191a; display: inline-block; font-size: 13px; text-transform: uppercase; font-weight: 700; letter-spacing: 2px; position: relative;}
+.primary_btn::after{position: absolute; content:""; background-color: #dfa974; width:20px; bottom: -5px; left:0; box-sizing: border-box; height:2px; transition:0.5s}
+.room_text>a:hover::after {width: 100%;}
+
 }
